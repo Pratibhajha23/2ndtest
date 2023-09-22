@@ -1,0 +1,187 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: opx 20px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #fff;
+}
+nav ul li{
+    display: inline;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    position: relative;
+}
+.back{
+    background-image: url(https://housing.com/news/wp-content/uploads/2023/03/exterior-design-shutterstock_1932966368-1200x700-compressed.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+}
+.back h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20%;
+}
+.btn{
+    background-color: yellow !important;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: black;
+}
+.white{
+    background-color: rgba(245, 245, 245, 0.822);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.conatiner{
+        width: 80%;
+        margin: auto;
+}
+.blog{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        gap: 20px;
+    
+}
+.card{
+    border-radius: 20px;
+    border: none;
+    padding: 3%;
+    box-shadow: 5px 8px 11px;
+}
+.card img{
+        width: 100%;
+}
+.head-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 35px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    background-color: rgba(245, 245, 245, 0.822);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.conatiner-2{
+    width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.head-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 35px;
+}
+.para-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 80%;
+    margin: auto;
+}
+@media only screen and(max-width:425px)
+{
+    .head{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .white{
+        background-color: rgba(245, 245, 245, 0.822);
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .conatiner{
+            width: 40%;
+            margin: auto;
+    }
+    .blog{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 100%;
+            gap: 10px;
+        
+    }
+    .card{
+        border-radius: 20px;
+        border: none;
+        padding: 3%;
+        box-shadow: 5px 8px 11px;
+    }
+    .card img{
+            width: 100%;
+    }
+    .about{
+        background-color: rgba(245, 245, 245, 0.822);
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+.conatiner-2{
+    width: 40%;
+    margin: auto;
+    background-color: whitesmoke;
+    }
+    .head-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 17px;
+    }
+    .para-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+        width: 40%;
+        margin: auto;
+    }
+}
