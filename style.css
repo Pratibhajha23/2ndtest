@@ -61,7 +61,7 @@ nav ul li a{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.conatiner{
+.container{
         width: 80%;
         margin: auto;
 }
@@ -76,8 +76,8 @@ nav ul li a{
 .card{
     border-radius: 20px;
     border: none;
-    padding: 3%;
-    box-shadow: 5px 8px 11px;
+    padding: 6%;
+    box-shadow: 5px 8px 8px;
 }
 .card img{
         width: 100%;
@@ -100,7 +100,7 @@ nav ul li a{
     padding-bottom: 50px;
     
 }
-.conatiner-2{
+.container-2{
     width: 80%;
     margin: auto;
     background-color: whitesmoke;
@@ -132,12 +132,13 @@ nav ul li a{
         background-color: whitesmoke;
         position: relative;
     }
+}
     .white{
         background-color: rgba(245, 245, 245, 0.822);
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    .conatiner{
+    .container{
             width: 40%;
             margin: auto;
     }
@@ -152,8 +153,8 @@ nav ul li a{
     .card{
         border-radius: 20px;
         border: none;
-        padding: 3%;
-        box-shadow: 5px 8px 11px;
+        padding: 6%;
+        box-shadow: 5px 8px 8px;
     }
     .card img{
             width: 100%;
@@ -164,8 +165,8 @@ nav ul li a{
         padding-bottom: 12px;
     }
 
-.conatiner-2{
-    width: 40%;
+.container-2{
+    width: 80%;
     margin: auto;
     background-color: whitesmoke;
     }
@@ -173,8 +174,8 @@ nav ul li a{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 5px;
-        margin: 17px;
+        padding: 10px;
+        margin: 35px;
     }
     .para-2{
         display: flex;
@@ -182,7 +183,7 @@ nav ul li a{
         justify-content: center;
     }
     .img{
-        width: 40%;
+        width: 80%;
         margin: auto;
     }
-}
+
