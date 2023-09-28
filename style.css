@@ -45,7 +45,7 @@ nav ul li a{
     font-weight: bolder;
     padding: 20%;
 }
-.btn{
+/* .btn{
     background-color: yellow !important;
     color: white;
     padding: 10px 20px;
@@ -55,7 +55,7 @@ nav ul li a{
 }
 .btn:hover{
     background-color: black;
-}
+} */
 .white{
     background-color: rgba(245, 245, 245, 0.822);
     padding-top: 50px;
